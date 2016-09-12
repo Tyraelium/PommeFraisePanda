@@ -1,0 +1,7 @@
+workshop_utilisateur:
+    resource: "@WorkshopUtilisateurBundle/Resources/config/routing.xml"
+    prefix:   /
+
+app:
+    resource: "@AppBundle/Controller/"
+    type:     annotation
